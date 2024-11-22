@@ -34,6 +34,7 @@ cd swasthya
 ```
 
 ### Install dependencies
+``` Open 3 different terminals and run the above commands in each terminal. ```
 
 **For the frontend:**
 
@@ -82,6 +83,7 @@ VITE_REACT_APP_API_HOST=http://localhost:5000
 ```
 
 ### Running the Application
+``` Open 3 different terminals and run the above commands in each terminal. ```
 
 **Start the backend server:**
 
@@ -102,11 +104,11 @@ npm run dev
 cd ai
 python app.py
 ```
-# open 3 different terminals and run the above commands in each terminal.
+
 - Lifestyle project will run on http://localhost:3000
 - AI project will run on http://127.0.0.1:5000
 
-# Note: If features of Lifestyle project does not work after logging in using Google account, please try manual sign up.
+## Important Note: If features of Lifestyle project does not work after logging in using Google account, please try manual sign up.
 
 ## Usage
 1. Navigate to the application in your browser.
@@ -129,4 +131,4 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
