@@ -70,9 +70,7 @@ const ContactUsForm = () => {
   return (
            
     <div style={{width:'35rem'}}
-      className={`shadow shadow-violet-400 p-6 space-y-4 md:space-y-6 sm:p-8 bg-clip-padding backdrop-filter backdrop-blur-xl  bg-white/10 bg-opacity-30 rounded-lg text-white p-10 max-w-lg mx-auto ${
-        formLoaded ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-12 scale-95"
-      }`}
+      className={`shadow shadow-violet-400 p-6 space-y-4 md:space-y-6 sm:p-8 bg-clip-padding backdrop-filter backdrop-blur-xl  bg-white/10 bg-opacity-30 rounded-lg text-white max-w-lg mx-auto ${formLoaded ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-12 scale-95"}`}
     >
       <h1 className="text-3xl font-bold text-center mb-6">Contact Us</h1>
       <form onSubmit={handleSubmit} className="space-y-6">
