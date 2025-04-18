@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const host = 'https://swasthya-t4od.onrender.com';
+const host = 'https://swasthya-back.onrender.com';
 const API_BASE_URL = `${host}/api/v1`;
 
 // API request function
