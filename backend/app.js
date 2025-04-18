@@ -19,7 +19,8 @@ connectDB();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://swasthya-k.vercel.app'
+  'https://swasthya-k.vercel.app',
+  'https://swasthya-back.onrender.com'
   
 ];
 
